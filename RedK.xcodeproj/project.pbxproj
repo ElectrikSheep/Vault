@@ -10,12 +10,12 @@
 		DB22597519A9F0DD00BA357C /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = DB22597419A9F0DD00BA357C /* KeychainItemWrapper.m */; };
 		DB3952E619AB11A900DBF40E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DB3952E519AB11A900DBF40E /* README.md */; };
 		DB3952E819AB125200DBF40E /* Licence.txt in Resources */ = {isa = PBXBuildFile; fileRef = DB3952E719AB125200DBF40E /* Licence.txt */; };
+		DB3952F219AB15E100DBF40E /* pinViewImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DB3952EA19AB15E100DBF40E /* pinViewImage.png */; };
+		DB3952F319AB15E100DBF40E /* PPCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3952EC19AB15E100DBF40E /* PPCircleButton.m */; };
+		DB3952F419AB15E100DBF40E /* PPPinCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3952EE19AB15E100DBF40E /* PPPinCircleView.m */; };
+		DB3952F519AB15E100DBF40E /* PPPinPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3952F019AB15E100DBF40E /* PPPinPadViewController.m */; };
+		DB3952F619AB15E100DBF40E /* PPPinPadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB3952F119AB15E100DBF40E /* PPPinPadViewController.xib */; };
 		DB4146DC19A9E04F00114306 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4146DB19A9E04F00114306 /* AssetsLibrary.framework */; };
-		DB4146F319A9E1D100114306 /* pinViewImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4146EB19A9E1D100114306 /* pinViewImage.png */; };
-		DB4146F419A9E1D100114306 /* PPCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4146ED19A9E1D100114306 /* PPCircleButton.m */; };
-		DB4146F519A9E1D100114306 /* PPPinCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4146EF19A9E1D100114306 /* PPPinCircleView.m */; };
-		DB4146F619A9E1D100114306 /* PPPinPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4146F119A9E1D100114306 /* PPPinPadViewController.m */; };
-		DB4146F719A9E1D100114306 /* PPPinPadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4146F219A9E1D100114306 /* PPPinPadViewController.xib */; };
 		DB4146FC19A9EA3C00114306 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4146FB19A9EA3C00114306 /* Security.framework */; };
 		DB4C78B419A624DB00E82761 /* ELSLibraryImportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4C78B319A624DB00E82761 /* ELSLibraryImportViewController.m */; };
 		DB4C78B819A6277A00E82761 /* ELSPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4C78B719A6277A00E82761 /* ELSPhotoPreviewCell.m */; };
@@ -52,15 +52,15 @@
 		DB22597419A9F0DD00BA357C /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
 		DB3952E519AB11A900DBF40E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = RedK/README.md; sourceTree = "<group>"; };
 		DB3952E719AB125200DBF40E /* Licence.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Licence.txt; sourceTree = "<group>"; };
+		DB3952EA19AB15E100DBF40E /* pinViewImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinViewImage.png; sourceTree = "<group>"; };
+		DB3952EB19AB15E100DBF40E /* PPCircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCircleButton.h; sourceTree = "<group>"; };
+		DB3952EC19AB15E100DBF40E /* PPCircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCircleButton.m; sourceTree = "<group>"; };
+		DB3952ED19AB15E100DBF40E /* PPPinCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPinCircleView.h; sourceTree = "<group>"; };
+		DB3952EE19AB15E100DBF40E /* PPPinCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPPinCircleView.m; sourceTree = "<group>"; };
+		DB3952EF19AB15E100DBF40E /* PPPinPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPinPadViewController.h; sourceTree = "<group>"; };
+		DB3952F019AB15E100DBF40E /* PPPinPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPPinPadViewController.m; sourceTree = "<group>"; };
+		DB3952F119AB15E100DBF40E /* PPPinPadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PPPinPadViewController.xib; sourceTree = "<group>"; };
 		DB4146DB19A9E04F00114306 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		DB4146EB19A9E1D100114306 /* pinViewImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinViewImage.png; sourceTree = "<group>"; };
-		DB4146EC19A9E1D100114306 /* PPCircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCircleButton.h; sourceTree = "<group>"; };
-		DB4146ED19A9E1D100114306 /* PPCircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCircleButton.m; sourceTree = "<group>"; };
-		DB4146EE19A9E1D100114306 /* PPPinCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPinCircleView.h; sourceTree = "<group>"; };
-		DB4146EF19A9E1D100114306 /* PPPinCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPPinCircleView.m; sourceTree = "<group>"; };
-		DB4146F019A9E1D100114306 /* PPPinPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPinPadViewController.h; sourceTree = "<group>"; };
-		DB4146F119A9E1D100114306 /* PPPinPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPPinPadViewController.m; sourceTree = "<group>"; };
-		DB4146F219A9E1D100114306 /* PPPinPadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PPPinPadViewController.xib; sourceTree = "<group>"; };
 		DB4146FB19A9EA3C00114306 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		DB4C78B319A624DB00E82761 /* ELSLibraryImportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELSLibraryImportViewController.m; path = Sources/ELSLibraryImportViewController.m; sourceTree = "<group>"; };
 		DB4C78B519A624F300E82761 /* ELSLibraryImportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ELSLibraryImportViewController.h; path = Sources/ELSLibraryImportViewController.h; sourceTree = "<group>"; };
@@ -117,19 +117,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DB4146DD19A9E18900114306 /* PinPad */ = {
+		DB3952E919AB15E100DBF40E /* PinPad */ = {
 			isa = PBXGroup;
 			children = (
-				DB4146EB19A9E1D100114306 /* pinViewImage.png */,
-				DB4146EC19A9E1D100114306 /* PPCircleButton.h */,
-				DB4146ED19A9E1D100114306 /* PPCircleButton.m */,
-				DB4146EE19A9E1D100114306 /* PPPinCircleView.h */,
-				DB4146EF19A9E1D100114306 /* PPPinCircleView.m */,
-				DB4146F019A9E1D100114306 /* PPPinPadViewController.h */,
-				DB4146F119A9E1D100114306 /* PPPinPadViewController.m */,
-				DB4146F219A9E1D100114306 /* PPPinPadViewController.xib */,
+				DB3952EA19AB15E100DBF40E /* pinViewImage.png */,
+				DB3952EB19AB15E100DBF40E /* PPCircleButton.h */,
+				DB3952EC19AB15E100DBF40E /* PPCircleButton.m */,
+				DB3952ED19AB15E100DBF40E /* PPPinCircleView.h */,
+				DB3952EE19AB15E100DBF40E /* PPPinCircleView.m */,
+				DB3952EF19AB15E100DBF40E /* PPPinPadViewController.h */,
+				DB3952F019AB15E100DBF40E /* PPPinPadViewController.m */,
+				DB3952F119AB15E100DBF40E /* PPPinPadViewController.xib */,
 			);
-			name = PinPad;
+			path = PinPad;
 			sourceTree = "<group>";
 		};
 		DB4C78B919A648F000E82761 /* MediaPicker */ = {
@@ -202,7 +202,7 @@
 		DBF15BD719A5F175004F9933 /* RedK */ = {
 			isa = PBXGroup;
 			children = (
-				DB4146DD19A9E18900114306 /* PinPad */,
+				DB3952E919AB15E100DBF40E /* PinPad */,
 				DB4C78BE19A64EB900E82761 /* Main */,
 				DB4C78B919A648F000E82761 /* MediaPicker */,
 				DB4C78BA19A6490000E82761 /* Gallery */,
@@ -329,11 +329,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB4146F319A9E1D100114306 /* pinViewImage.png in Resources */,
+				DB3952F219AB15E100DBF40E /* pinViewImage.png in Resources */,
 				DBF15BEA19A5F175004F9933 /* Images.xcassets in Resources */,
 				DB3952E819AB125200DBF40E /* Licence.txt in Resources */,
 				DBF15BDC19A5F175004F9933 /* InfoPlist.strings in Resources */,
-				DB4146F719A9E1D100114306 /* PPPinPadViewController.xib in Resources */,
+				DB3952F619AB15E100DBF40E /* PPPinPadViewController.xib in Resources */,
 				DBF15BE519A5F175004F9933 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,15 +353,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB3952F519AB15E100DBF40E /* PPPinPadViewController.m in Sources */,
 				DB4C78B419A624DB00E82761 /* ELSLibraryImportViewController.m in Sources */,
-				DB4146F419A9E1D100114306 /* PPCircleButton.m in Sources */,
 				DB4C78B819A6277A00E82761 /* ELSPhotoPreviewCell.m in Sources */,
+				DB3952F319AB15E100DBF40E /* PPCircleButton.m in Sources */,
 				DBC4550319A78ED6003EC143 /* ELSDisplayView.m in Sources */,
 				DBF15BDE19A5F175004F9933 /* main.m in Sources */,
-				DB4146F519A9E1D100114306 /* PPPinCircleView.m in Sources */,
+				DB3952F419AB15E100DBF40E /* PPPinCircleView.m in Sources */,
 				DB3952E619AB11A900DBF40E /* README.md in Sources */,
 				DB22597519A9F0DD00BA357C /* KeychainItemWrapper.m in Sources */,
-				DB4146F619A9E1D100114306 /* PPPinPadViewController.m in Sources */,
 				DBF15BE219A5F175004F9933 /* ELSAppDelegate.m in Sources */,
 				DB4C78BD19A6496700E82761 /* ELSGalleryDisplayViewController.m in Sources */,
 				DBF15BE819A5F175004F9933 /* ELSViewController.m in Sources */,
