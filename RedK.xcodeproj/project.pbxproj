@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB3952E619AB11A900DBF40E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DB3952E519AB11A900DBF40E /* README.md */; };
 		DB3952E819AB125200DBF40E /* Licence.txt in Resources */ = {isa = PBXBuildFile; fileRef = DB3952E719AB125200DBF40E /* Licence.txt */; };
 		DB3952F219AB15E100DBF40E /* pinViewImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DB3952EA19AB15E100DBF40E /* pinViewImage.png */; };
 		DB3952F319AB15E100DBF40E /* PPCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3952EC19AB15E100DBF40E /* PPCircleButton.m */; };
@@ -50,7 +49,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DB3952E519AB11A900DBF40E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = RedK/README.md; sourceTree = "<group>"; };
 		DB3952E719AB125200DBF40E /* Licence.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Licence.txt; sourceTree = "<group>"; };
 		DB3952EA19AB15E100DBF40E /* pinViewImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinViewImage.png; sourceTree = "<group>"; };
 		DB3952EB19AB15E100DBF40E /* PPCircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCircleButton.h; sourceTree = "<group>"; };
@@ -182,7 +180,6 @@
 			isa = PBXGroup;
 			children = (
 				DB3952E719AB125200DBF40E /* Licence.txt */,
-				DB3952E519AB11A900DBF40E /* README.md */,
 				DBF15BD719A5F175004F9933 /* RedK */,
 				DBF15BF619A5F175004F9933 /* RedKTests */,
 				DBF15BD019A5F175004F9933 /* Frameworks */,
@@ -376,7 +373,6 @@
 				DBC4550319A78ED6003EC143 /* ELSDisplayView.m in Sources */,
 				DBF15BDE19A5F175004F9933 /* main.m in Sources */,
 				DB3952F419AB15E100DBF40E /* PPPinCircleView.m in Sources */,
-				DB3952E619AB11A900DBF40E /* README.md in Sources */,
 				DB3952FE19AB17E300DBF40E /* README.md in Sources */,
 				DBF15BE219A5F175004F9933 /* ELSAppDelegate.m in Sources */,
 				DB4C78BD19A6496700E82761 /* ELSGalleryDisplayViewController.m in Sources */,
