@@ -119,6 +119,11 @@ int SELECTED_PICTURES = 0 ;
 
         NSLog(@"%@", filePath);
     }
+    
+    [self.navigationController popToRootViewControllerAnimated:YES] ;
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:@"Done Importing" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil] ;
+    [alert show];
 }
 
 

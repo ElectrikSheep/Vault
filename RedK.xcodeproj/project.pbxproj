@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB3952E619AB11A900DBF40E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DB3952E519AB11A900DBF40E /* README.md */; };
 		DB3952E819AB125200DBF40E /* Licence.txt in Resources */ = {isa = PBXBuildFile; fileRef = DB3952E719AB125200DBF40E /* Licence.txt */; };
 		DB3952F219AB15E100DBF40E /* pinViewImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DB3952EA19AB15E100DBF40E /* pinViewImage.png */; };
 		DB3952F319AB15E100DBF40E /* PPCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3952EC19AB15E100DBF40E /* PPCircleButton.m */; };
@@ -15,13 +14,12 @@
 		DB3952F519AB15E100DBF40E /* PPPinPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3952F019AB15E100DBF40E /* PPPinPadViewController.m */; };
 		DB3952F619AB15E100DBF40E /* PPPinPadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB3952F119AB15E100DBF40E /* PPPinPadViewController.xib */; };
 		DB3952FA19AB167A00DBF40E /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3952F919AB167A00DBF40E /* KeychainItemWrapper.m */; };
-		DB3952FC19AB17C600DBF40E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DB3952FB19AB17C600DBF40E /* README.md */; };
-		DB3952FE19AB17E300DBF40E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DB3952FD19AB17E300DBF40E /* README.md */; };
 		DB4146DC19A9E04F00114306 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4146DB19A9E04F00114306 /* AssetsLibrary.framework */; };
 		DB4146FC19A9EA3C00114306 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4146FB19A9EA3C00114306 /* Security.framework */; };
 		DB4C78B419A624DB00E82761 /* ELSLibraryImportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4C78B319A624DB00E82761 /* ELSLibraryImportViewController.m */; };
 		DB4C78B819A6277A00E82761 /* ELSPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4C78B719A6277A00E82761 /* ELSPhotoPreviewCell.m */; };
 		DB4C78BD19A6496700E82761 /* ELSGalleryDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4C78BC19A6496700E82761 /* ELSGalleryDisplayViewController.m */; };
+		DBA0A89E19AB4B4F0025863A /* ELSPinCodeUpdaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA0A89D19AB4B4F0025863A /* ELSPinCodeUpdaterViewController.m */; };
 		DBC4550319A78ED6003EC143 /* ELSDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC4550219A78ED6003EC143 /* ELSDisplayView.m */; };
 		DBF15BD219A5F175004F9933 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF15BD119A5F175004F9933 /* Foundation.framework */; };
 		DBF15BD419A5F175004F9933 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF15BD319A5F175004F9933 /* CoreGraphics.framework */; };
@@ -50,7 +48,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DB3952E519AB11A900DBF40E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = RedK/README.md; sourceTree = "<group>"; };
 		DB3952E719AB125200DBF40E /* Licence.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Licence.txt; sourceTree = "<group>"; };
 		DB3952EA19AB15E100DBF40E /* pinViewImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinViewImage.png; sourceTree = "<group>"; };
 		DB3952EB19AB15E100DBF40E /* PPCircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCircleButton.h; sourceTree = "<group>"; };
@@ -62,8 +59,6 @@
 		DB3952F119AB15E100DBF40E /* PPPinPadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PPPinPadViewController.xib; sourceTree = "<group>"; };
 		DB3952F819AB167A00DBF40E /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
 		DB3952F919AB167A00DBF40E /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
-		DB3952FB19AB17C600DBF40E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DB3952FD19AB17E300DBF40E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DB4146DB19A9E04F00114306 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		DB4146FB19A9EA3C00114306 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		DB4C78B319A624DB00E82761 /* ELSLibraryImportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELSLibraryImportViewController.m; path = Sources/ELSLibraryImportViewController.m; sourceTree = "<group>"; };
@@ -72,6 +67,8 @@
 		DB4C78B719A6277A00E82761 /* ELSPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELSPhotoPreviewCell.m; path = Sources/ELSPhotoPreviewCell.m; sourceTree = "<group>"; };
 		DB4C78BB19A6496700E82761 /* ELSGalleryDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELSGalleryDisplayViewController.h; path = Sources/ELSGalleryDisplayViewController.h; sourceTree = "<group>"; };
 		DB4C78BC19A6496700E82761 /* ELSGalleryDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELSGalleryDisplayViewController.m; path = Sources/ELSGalleryDisplayViewController.m; sourceTree = "<group>"; };
+		DBA0A89C19AB4B4F0025863A /* ELSPinCodeUpdaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELSPinCodeUpdaterViewController.h; path = Sources/ELSPinCodeUpdaterViewController.h; sourceTree = "<group>"; };
+		DBA0A89D19AB4B4F0025863A /* ELSPinCodeUpdaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELSPinCodeUpdaterViewController.m; path = Sources/ELSPinCodeUpdaterViewController.m; sourceTree = "<group>"; };
 		DBC4550219A78ED6003EC143 /* ELSDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELSDisplayView.m; path = Sources/ELSDisplayView.m; sourceTree = "<group>"; };
 		DBC4550419A78F1C003EC143 /* ELSDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELSDisplayView.h; path = Sources/ELSDisplayView.h; sourceTree = "<group>"; };
 		DBF15BCE19A5F175004F9933 /* RedK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedK.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,7 +121,6 @@
 		DB3952E919AB15E100DBF40E /* PinPad */ = {
 			isa = PBXGroup;
 			children = (
-				DB3952FD19AB17E300DBF40E /* README.md */,
 				DB3952EA19AB15E100DBF40E /* pinViewImage.png */,
 				DB3952EB19AB15E100DBF40E /* PPCircleButton.h */,
 				DB3952EC19AB15E100DBF40E /* PPCircleButton.m */,
@@ -140,7 +136,6 @@
 		DB3952F719AB167A00DBF40E /* KeyChainItemWrapper */ = {
 			isa = PBXGroup;
 			children = (
-				DB3952FB19AB17C600DBF40E /* README.md */,
 				DB3952F819AB167A00DBF40E /* KeychainItemWrapper.h */,
 				DB3952F919AB167A00DBF40E /* KeychainItemWrapper.m */,
 			);
@@ -174,6 +169,8 @@
 			children = (
 				DBF15BE619A5F175004F9933 /* ELSViewController.h */,
 				DBF15BE719A5F175004F9933 /* ELSViewController.m */,
+				DBA0A89C19AB4B4F0025863A /* ELSPinCodeUpdaterViewController.h */,
+				DBA0A89D19AB4B4F0025863A /* ELSPinCodeUpdaterViewController.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -182,7 +179,6 @@
 			isa = PBXGroup;
 			children = (
 				DB3952E719AB125200DBF40E /* Licence.txt */,
-				DB3952E519AB11A900DBF40E /* README.md */,
 				DBF15BD719A5F175004F9933 /* RedK */,
 				DBF15BF619A5F175004F9933 /* RedKTests */,
 				DBF15BD019A5F175004F9933 /* Frameworks */,
@@ -369,15 +365,13 @@
 			files = (
 				DB3952F519AB15E100DBF40E /* PPPinPadViewController.m in Sources */,
 				DB3952FA19AB167A00DBF40E /* KeychainItemWrapper.m in Sources */,
+				DBA0A89E19AB4B4F0025863A /* ELSPinCodeUpdaterViewController.m in Sources */,
 				DB4C78B419A624DB00E82761 /* ELSLibraryImportViewController.m in Sources */,
 				DB4C78B819A6277A00E82761 /* ELSPhotoPreviewCell.m in Sources */,
-				DB3952FC19AB17C600DBF40E /* README.md in Sources */,
 				DB3952F319AB15E100DBF40E /* PPCircleButton.m in Sources */,
 				DBC4550319A78ED6003EC143 /* ELSDisplayView.m in Sources */,
 				DBF15BDE19A5F175004F9933 /* main.m in Sources */,
 				DB3952F419AB15E100DBF40E /* PPPinCircleView.m in Sources */,
-				DB3952E619AB11A900DBF40E /* README.md in Sources */,
-				DB3952FE19AB17E300DBF40E /* README.md in Sources */,
 				DBF15BE219A5F175004F9933 /* ELSAppDelegate.m in Sources */,
 				DB4C78BD19A6496700E82761 /* ELSGalleryDisplayViewController.m in Sources */,
 				DBF15BE819A5F175004F9933 /* ELSViewController.m in Sources */,

@@ -156,5 +156,27 @@ NSInteger currentPage = -1 ;
     [self loadVisiblePages];
 }
 
+- (IBAction)btn_shareCurrentPicture:(id)sender {
+    UIImage *anImage =[self.savedImages objectAtIndex:self.pageControl.currentPage];
+    NSArray *Items   = [NSArray arrayWithObjects:
+                        @"",
+                        anImage, nil];
+    __block UIActivityViewController *ActivityView = [[UIActivityViewController alloc]
+     initWithActivityItems:Items applicationActivities:nil];
+    [self presentViewController:ActivityView animated:YES completion:^(){
+        ActivityView = nil ;
+    }];
+    
+}
+
 
 @end
+
+
+
+
+
+
+
+
+

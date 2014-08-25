@@ -40,11 +40,15 @@
     }
     else {
     }
+
+}
+
+-(void) viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
     
     KeychainItemWrapper *keychain = [[KeychainItemWrapper alloc] initWithIdentifier:@"TestAppLoginData" accessGroup:nil];
     self.userPW = [keychain objectForKey:(__bridge id)(kSecAttrService)];
     NSLog(@"%@", self.userPW );
-
 }
 
 - (void)didReceiveMemoryWarning
@@ -65,17 +69,33 @@
 }
 
 - (BOOL)checkPin:(NSString *)pin{
+    UIAlertView *alert;
+    
     NSLog(@"Checking Pin : %@", pin) ;
     if( self.userPW == nil ) {
-        
         NSLog(@"Setting new Pin") ;
         KeychainItemWrapper *keychain = [[KeychainItemWrapper alloc] initWithIdentifier:@"TestAppLoginData" accessGroup:nil];
         [keychain setObject:pin forKey:(__bridge id)(kSecAttrService)];
         self.userPW = pin ;
+        
+        alert = [[UIAlertView alloc] initWithTitle:@"" message:@"New Password Created" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil] ;
+        [alert show];
         return YES;
     }
     
-    else return [pin isEqualToString:self.userPW ];
+    else {
+        if ([pin isEqualToString:self.userPW ]) {
+            alert = [[UIAlertView alloc] initWithTitle:@"" message:@"App Unlocked" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil] ;
+            [alert show];
+            return YES ;
+        }
+        else {
+            
+            alert = [[UIAlertView alloc] initWithTitle:@"" message:@"Wrong Passcode" delegate:self cancelButtonTitle:@"Damn" otherButtonTitles:nil] ;
+            [alert show];
+            return NO ;
+        }
+    }
 }
 
 
