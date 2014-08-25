@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB22597519A9F0DD00BA357C /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = DB22597419A9F0DD00BA357C /* KeychainItemWrapper.m */; };
+		DB3952E619AB11A900DBF40E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DB3952E519AB11A900DBF40E /* README.md */; };
+		DB3952E819AB125200DBF40E /* Licence.txt in Resources */ = {isa = PBXBuildFile; fileRef = DB3952E719AB125200DBF40E /* Licence.txt */; };
+		DB4146DC19A9E04F00114306 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4146DB19A9E04F00114306 /* AssetsLibrary.framework */; };
+		DB4146F319A9E1D100114306 /* pinViewImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4146EB19A9E1D100114306 /* pinViewImage.png */; };
+		DB4146F419A9E1D100114306 /* PPCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4146ED19A9E1D100114306 /* PPCircleButton.m */; };
+		DB4146F519A9E1D100114306 /* PPPinCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4146EF19A9E1D100114306 /* PPPinCircleView.m */; };
+		DB4146F619A9E1D100114306 /* PPPinPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4146F119A9E1D100114306 /* PPPinPadViewController.m */; };
+		DB4146F719A9E1D100114306 /* PPPinPadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4146F219A9E1D100114306 /* PPPinPadViewController.xib */; };
+		DB4146FC19A9EA3C00114306 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4146FB19A9EA3C00114306 /* Security.framework */; };
+		DB4C78B419A624DB00E82761 /* ELSLibraryImportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4C78B319A624DB00E82761 /* ELSLibraryImportViewController.m */; };
+		DB4C78B819A6277A00E82761 /* ELSPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4C78B719A6277A00E82761 /* ELSPhotoPreviewCell.m */; };
+		DB4C78BD19A6496700E82761 /* ELSGalleryDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4C78BC19A6496700E82761 /* ELSGalleryDisplayViewController.m */; };
+		DBC4550319A78ED6003EC143 /* ELSDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC4550219A78ED6003EC143 /* ELSDisplayView.m */; };
+		DBF15BD219A5F175004F9933 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF15BD119A5F175004F9933 /* Foundation.framework */; };
+		DBF15BD419A5F175004F9933 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF15BD319A5F175004F9933 /* CoreGraphics.framework */; };
+		DBF15BD619A5F175004F9933 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF15BD519A5F175004F9933 /* UIKit.framework */; };
+		DBF15BDC19A5F175004F9933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBF15BDA19A5F175004F9933 /* InfoPlist.strings */; };
+		DBF15BDE19A5F175004F9933 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF15BDD19A5F175004F9933 /* main.m */; };
+		DBF15BE219A5F175004F9933 /* ELSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF15BE119A5F175004F9933 /* ELSAppDelegate.m */; };
+		DBF15BE519A5F175004F9933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF15BE319A5F175004F9933 /* Main.storyboard */; };
+		DBF15BE819A5F175004F9933 /* ELSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF15BE719A5F175004F9933 /* ELSViewController.m */; };
+		DBF15BEA19A5F175004F9933 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF15BE919A5F175004F9933 /* Images.xcassets */; };
+		DBF15BF119A5F175004F9933 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF15BF019A5F175004F9933 /* XCTest.framework */; };
+		DBF15BF219A5F175004F9933 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF15BD119A5F175004F9933 /* Foundation.framework */; };
+		DBF15BF319A5F175004F9933 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF15BD519A5F175004F9933 /* UIKit.framework */; };
+		DBF15BFB19A5F175004F9933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBF15BF919A5F175004F9933 /* InfoPlist.strings */; };
+		DBF15BFD19A5F175004F9933 /* RedKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF15BFC19A5F175004F9933 /* RedKTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBF15BF419A5F175004F9933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF15BC619A5F175004F9933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF15BCD19A5F175004F9933;
+			remoteInfo = RedK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB22597319A9F0DD00BA357C /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		DB22597419A9F0DD00BA357C /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		DB3952E519AB11A900DBF40E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = RedK/README.md; sourceTree = "<group>"; };
+		DB3952E719AB125200DBF40E /* Licence.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Licence.txt; sourceTree = "<group>"; };
+		DB4146DB19A9E04F00114306 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		DB4146EB19A9E1D100114306 /* pinViewImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinViewImage.png; sourceTree = "<group>"; };
+		DB4146EC19A9E1D100114306 /* PPCircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCircleButton.h; sourceTree = "<group>"; };
+		DB4146ED19A9E1D100114306 /* PPCircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCircleButton.m; sourceTree = "<group>"; };
+		DB4146EE19A9E1D100114306 /* PPPinCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPinCircleView.h; sourceTree = "<group>"; };
+		DB4146EF19A9E1D100114306 /* PPPinCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPPinCircleView.m; sourceTree = "<group>"; };
+		DB4146F019A9E1D100114306 /* PPPinPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPinPadViewController.h; sourceTree = "<group>"; };
+		DB4146F119A9E1D100114306 /* PPPinPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPPinPadViewController.m; sourceTree = "<group>"; };
+		DB4146F219A9E1D100114306 /* PPPinPadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PPPinPadViewController.xib; sourceTree = "<group>"; };
+		DB4146FB19A9EA3C00114306 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DB4C78B319A624DB00E82761 /* ELSLibraryImportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELSLibraryImportViewController.m; path = Sources/ELSLibraryImportViewController.m; sourceTree = "<group>"; };
+		DB4C78B519A624F300E82761 /* ELSLibraryImportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ELSLibraryImportViewController.h; path = Sources/ELSLibraryImportViewController.h; sourceTree = "<group>"; };
+		DB4C78B619A6277A00E82761 /* ELSPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELSPhotoPreviewCell.h; path = Sources/ELSPhotoPreviewCell.h; sourceTree = "<group>"; };
+		DB4C78B719A6277A00E82761 /* ELSPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELSPhotoPreviewCell.m; path = Sources/ELSPhotoPreviewCell.m; sourceTree = "<group>"; };
+		DB4C78BB19A6496700E82761 /* ELSGalleryDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELSGalleryDisplayViewController.h; path = Sources/ELSGalleryDisplayViewController.h; sourceTree = "<group>"; };
+		DB4C78BC19A6496700E82761 /* ELSGalleryDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELSGalleryDisplayViewController.m; path = Sources/ELSGalleryDisplayViewController.m; sourceTree = "<group>"; };
+		DBC4550219A78ED6003EC143 /* ELSDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELSDisplayView.m; path = Sources/ELSDisplayView.m; sourceTree = "<group>"; };
+		DBC4550419A78F1C003EC143 /* ELSDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELSDisplayView.h; path = Sources/ELSDisplayView.h; sourceTree = "<group>"; };
+		DBF15BCE19A5F175004F9933 /* RedK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF15BD119A5F175004F9933 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DBF15BD319A5F175004F9933 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DBF15BD519A5F175004F9933 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DBF15BD919A5F175004F9933 /* RedK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RedK-Info.plist"; sourceTree = "<group>"; };
+		DBF15BDB19A5F175004F9933 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBF15BDD19A5F175004F9933 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBF15BDF19A5F175004F9933 /* RedK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RedK-Prefix.pch"; sourceTree = "<group>"; };
+		DBF15BE019A5F175004F9933 /* ELSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELSAppDelegate.h; sourceTree = "<group>"; };
+		DBF15BE119A5F175004F9933 /* ELSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELSAppDelegate.m; sourceTree = "<group>"; };
+		DBF15BE419A5F175004F9933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBF15BE619A5F175004F9933 /* ELSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELSViewController.h; sourceTree = "<group>"; };
+		DBF15BE719A5F175004F9933 /* ELSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELSViewController.m; sourceTree = "<group>"; };
+		DBF15BE919A5F175004F9933 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DBF15BEF19A5F175004F9933 /* RedKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF15BF019A5F175004F9933 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DBF15BF819A5F175004F9933 /* RedKTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RedKTests-Info.plist"; sourceTree = "<group>"; };
+		DBF15BFA19A5F175004F9933 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBF15BFC19A5F175004F9933 /* RedKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedKTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBF15BCB19A5F175004F9933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4146FC19A9EA3C00114306 /* Security.framework in Frameworks */,
+				DB4146DC19A9E04F00114306 /* AssetsLibrary.framework in Frameworks */,
+				DBF15BD419A5F175004F9933 /* CoreGraphics.framework in Frameworks */,
+				DBF15BD619A5F175004F9933 /* UIKit.framework in Frameworks */,
+				DBF15BD219A5F175004F9933 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF15BEC19A5F175004F9933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF15BF119A5F175004F9933 /* XCTest.framework in Frameworks */,
+				DBF15BF319A5F175004F9933 /* UIKit.framework in Frameworks */,
+				DBF15BF219A5F175004F9933 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB4146DD19A9E18900114306 /* PinPad */ = {
+			isa = PBXGroup;
+			children = (
+				DB4146EB19A9E1D100114306 /* pinViewImage.png */,
+				DB4146EC19A9E1D100114306 /* PPCircleButton.h */,
+				DB4146ED19A9E1D100114306 /* PPCircleButton.m */,
+				DB4146EE19A9E1D100114306 /* PPPinCircleView.h */,
+				DB4146EF19A9E1D100114306 /* PPPinCircleView.m */,
+				DB4146F019A9E1D100114306 /* PPPinPadViewController.h */,
+				DB4146F119A9E1D100114306 /* PPPinPadViewController.m */,
+				DB4146F219A9E1D100114306 /* PPPinPadViewController.xib */,
+			);
+			name = PinPad;
+			sourceTree = "<group>";
+		};
+		DB4C78B919A648F000E82761 /* MediaPicker */ = {
+			isa = PBXGroup;
+			children = (
+				DB4C78B319A624DB00E82761 /* ELSLibraryImportViewController.m */,
+				DB4C78B519A624F300E82761 /* ELSLibraryImportViewController.h */,
+				DB4C78B619A6277A00E82761 /* ELSPhotoPreviewCell.h */,
+				DB4C78B719A6277A00E82761 /* ELSPhotoPreviewCell.m */,
+			);
+			name = MediaPicker;
+			sourceTree = "<group>";
+		};
+		DB4C78BA19A6490000E82761 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				DB4C78BB19A6496700E82761 /* ELSGalleryDisplayViewController.h */,
+				DB4C78BC19A6496700E82761 /* ELSGalleryDisplayViewController.m */,
+				DBC4550419A78F1C003EC143 /* ELSDisplayView.h */,
+				DBC4550219A78ED6003EC143 /* ELSDisplayView.m */,
+			);
+			name = Gallery;
+			sourceTree = "<group>";
+		};
+		DB4C78BE19A64EB900E82761 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DB22597319A9F0DD00BA357C /* KeychainItemWrapper.h */,
+				DB22597419A9F0DD00BA357C /* KeychainItemWrapper.m */,
+				DBF15BE619A5F175004F9933 /* ELSViewController.h */,
+				DBF15BE719A5F175004F9933 /* ELSViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		DBF15BC519A5F175004F9933 = {
+			isa = PBXGroup;
+			children = (
+				DB3952E719AB125200DBF40E /* Licence.txt */,
+				DB3952E519AB11A900DBF40E /* README.md */,
+				DBF15BD719A5F175004F9933 /* RedK */,
+				DBF15BF619A5F175004F9933 /* RedKTests */,
+				DBF15BD019A5F175004F9933 /* Frameworks */,
+				DBF15BCF19A5F175004F9933 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBF15BCF19A5F175004F9933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBF15BCE19A5F175004F9933 /* RedK.app */,
+				DBF15BEF19A5F175004F9933 /* RedKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBF15BD019A5F175004F9933 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB4146FB19A9EA3C00114306 /* Security.framework */,
+				DB4146DB19A9E04F00114306 /* AssetsLibrary.framework */,
+				DBF15BD119A5F175004F9933 /* Foundation.framework */,
+				DBF15BD319A5F175004F9933 /* CoreGraphics.framework */,
+				DBF15BD519A5F175004F9933 /* UIKit.framework */,
+				DBF15BF019A5F175004F9933 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBF15BD719A5F175004F9933 /* RedK */ = {
+			isa = PBXGroup;
+			children = (
+				DB4146DD19A9E18900114306 /* PinPad */,
+				DB4C78BE19A64EB900E82761 /* Main */,
+				DB4C78B919A648F000E82761 /* MediaPicker */,
+				DB4C78BA19A6490000E82761 /* Gallery */,
+				DBF15BE019A5F175004F9933 /* ELSAppDelegate.h */,
+				DBF15BE119A5F175004F9933 /* ELSAppDelegate.m */,
+				DBF15BE319A5F175004F9933 /* Main.storyboard */,
+				DBF15BE919A5F175004F9933 /* Images.xcassets */,
+				DBF15BD819A5F175004F9933 /* Supporting Files */,
+			);
+			path = RedK;
+			sourceTree = "<group>";
+		};
+		DBF15BD819A5F175004F9933 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF15BD919A5F175004F9933 /* RedK-Info.plist */,
+				DBF15BDA19A5F175004F9933 /* InfoPlist.strings */,
+				DBF15BDD19A5F175004F9933 /* main.m */,
+				DBF15BDF19A5F175004F9933 /* RedK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBF15BF619A5F175004F9933 /* RedKTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF15BFC19A5F175004F9933 /* RedKTests.m */,
+				DBF15BF719A5F175004F9933 /* Supporting Files */,
+			);
+			path = RedKTests;
+			sourceTree = "<group>";
+		};
+		DBF15BF719A5F175004F9933 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF15BF819A5F175004F9933 /* RedKTests-Info.plist */,
+				DBF15BF919A5F175004F9933 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBF15BCD19A5F175004F9933 /* RedK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF15C0019A5F175004F9933 /* Build configuration list for PBXNativeTarget "RedK" */;
+			buildPhases = (
+				DBF15BCA19A5F175004F9933 /* Sources */,
+				DBF15BCB19A5F175004F9933 /* Frameworks */,
+				DBF15BCC19A5F175004F9933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedK;
+			productName = RedK;
+			productReference = DBF15BCE19A5F175004F9933 /* RedK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBF15BEE19A5F175004F9933 /* RedKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF15C0319A5F175004F9933 /* Build configuration list for PBXNativeTarget "RedKTests" */;
+			buildPhases = (
+				DBF15BEB19A5F175004F9933 /* Sources */,
+				DBF15BEC19A5F175004F9933 /* Frameworks */,
+				DBF15BED19A5F175004F9933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF15BF519A5F175004F9933 /* PBXTargetDependency */,
+			);
+			name = RedKTests;
+			productName = RedKTests;
+			productReference = DBF15BEF19A5F175004F9933 /* RedKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBF15BC619A5F175004F9933 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ELS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ElectrikSheep;
+				TargetAttributes = {
+					DBF15BCD19A5F175004F9933 = {
+						DevelopmentTeam = QLK6NR287W;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+						};
+					};
+					DBF15BEE19A5F175004F9933 = {
+						TestTargetID = DBF15BCD19A5F175004F9933;
+					};
+				};
+			};
+			buildConfigurationList = DBF15BC919A5F175004F9933 /* Build configuration list for PBXProject "RedK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBF15BC519A5F175004F9933;
+			productRefGroup = DBF15BCF19A5F175004F9933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBF15BCD19A5F175004F9933 /* RedK */,
+				DBF15BEE19A5F175004F9933 /* RedKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBF15BCC19A5F175004F9933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4146F319A9E1D100114306 /* pinViewImage.png in Resources */,
+				DBF15BEA19A5F175004F9933 /* Images.xcassets in Resources */,
+				DB3952E819AB125200DBF40E /* Licence.txt in Resources */,
+				DBF15BDC19A5F175004F9933 /* InfoPlist.strings in Resources */,
+				DB4146F719A9E1D100114306 /* PPPinPadViewController.xib in Resources */,
+				DBF15BE519A5F175004F9933 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF15BED19A5F175004F9933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF15BFB19A5F175004F9933 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBF15BCA19A5F175004F9933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4C78B419A624DB00E82761 /* ELSLibraryImportViewController.m in Sources */,
+				DB4146F419A9E1D100114306 /* PPCircleButton.m in Sources */,
+				DB4C78B819A6277A00E82761 /* ELSPhotoPreviewCell.m in Sources */,
+				DBC4550319A78ED6003EC143 /* ELSDisplayView.m in Sources */,
+				DBF15BDE19A5F175004F9933 /* main.m in Sources */,
+				DB4146F519A9E1D100114306 /* PPPinCircleView.m in Sources */,
+				DB3952E619AB11A900DBF40E /* README.md in Sources */,
+				DB22597519A9F0DD00BA357C /* KeychainItemWrapper.m in Sources */,
+				DB4146F619A9E1D100114306 /* PPPinPadViewController.m in Sources */,
+				DBF15BE219A5F175004F9933 /* ELSAppDelegate.m in Sources */,
+				DB4C78BD19A6496700E82761 /* ELSGalleryDisplayViewController.m in Sources */,
+				DBF15BE819A5F175004F9933 /* ELSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF15BEB19A5F175004F9933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF15BFD19A5F175004F9933 /* RedKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBF15BF519A5F175004F9933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF15BCD19A5F175004F9933 /* RedK */;
+			targetProxy = DBF15BF419A5F175004F9933 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBF15BDA19A5F175004F9933 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF15BDB19A5F175004F9933 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DBF15BE319A5F175004F9933 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF15BE419A5F175004F9933 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBF15BF919A5F175004F9933 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF15BFA19A5F175004F9933 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBF15BFE19A5F175004F9933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBF15BFF19A5F175004F9933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBF15C0119A5F175004F9933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedK/RedK-Prefix.pch";
+				INFOPLIST_FILE = "RedK/RedK-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DBF15C0219A5F175004F9933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedK/RedK-Prefix.pch";
+				INFOPLIST_FILE = "RedK/RedK-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DBF15C0419A5F175004F9933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RedK.app/RedK";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedK/RedK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RedKTests/RedKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DBF15C0519A5F175004F9933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RedK.app/RedK";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedK/RedK-Prefix.pch";
+				INFOPLIST_FILE = "RedKTests/RedKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBF15BC919A5F175004F9933 /* Build configuration list for PBXProject "RedK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF15BFE19A5F175004F9933 /* Debug */,
+				DBF15BFF19A5F175004F9933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF15C0019A5F175004F9933 /* Build configuration list for PBXNativeTarget "RedK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF15C0119A5F175004F9933 /* Debug */,
+				DBF15C0219A5F175004F9933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF15C0319A5F175004F9933 /* Build configuration list for PBXNativeTarget "RedKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF15C0419A5F175004F9933 /* Debug */,
+				DBF15C0519A5F175004F9933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBF15BC619A5F175004F9933 /* Project object */;
+}
